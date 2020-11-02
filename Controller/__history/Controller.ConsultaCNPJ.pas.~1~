@@ -1,0 +1,39 @@
+unit Controller.ConsultaCNPJ;
+
+interface
+
+uses System.SysUtils, REST.Client, Classe.Pessoa, Callout.API, REST.Json;
+
+type
+  TConsultaCNPJ = class
+  public
+    function Consultar(sCNPJ: String): TPessoa;
+  end;
+
+implementation
+
+{ TConsultaCNPJ }
+
+function TConsultaCNPJ.Consultar(sCNPJ: String): TPessoa;
+var
+  paramsList: TRESTRequestParameterList;
+  callCNPJ: TCallout;
+  httpResponse: TRESTResponse;
+  pessoaJuridica: TPessoa;
+begin
+  callCNPJ   := TCallout.Create('https://www.receitaws.com.br/', 'v1/cnpj/{cnpj}');
+  paramsList := TRESTRequestParameterList.Create(nil);
+  try
+    paramsList.AddUrlSegment('cnpj', Trim(sCNPJ));
+    httpResponse := callCNPJ.sendRequest(paramsList);
+    pessoaJuridica := TJson.JsonToObject<TPessoa>(httpResponse.Content);
+
+    Result := pessoaJuridica;
+  finally
+    callCNPJ.Free;
+    paramsList.Free;
+    httpResponse.Free;
+  end;
+end;
+
+end.

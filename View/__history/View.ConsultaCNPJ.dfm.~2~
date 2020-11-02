@@ -1,0 +1,52 @@
+object FConsultaCNPJ: TFConsultaCNPJ
+  Left = 0
+  Top = 0
+  Caption = 'Consulta de CNPJ'
+  ClientHeight = 363
+  ClientWidth = 770
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 764
+    Height = 37
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Consulta de CNPJ'
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    ExplicitWidth = 210
+  end
+  object edtCNPJ: TEdit
+    Left = 136
+    Top = 160
+    Width = 185
+    Height = 21
+    TabOrder = 0
+    TextHint = 'Digite o CNPJ'
+  end
+  object btnConsultaCNPJ: TButton
+    Left = 327
+    Top = 158
+    Width = 106
+    Height = 25
+    Caption = 'Consultar CNPJ'
+    TabOrder = 1
+    OnClick = btnConsultaCNPJClick
+  end
+end

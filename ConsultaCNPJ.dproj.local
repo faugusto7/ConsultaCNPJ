@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/01 18:26:49.000.734,=C:\Users\hp\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 18:28:29.000.267,C:\Users\hp\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Felipe\ConsultaCNPJ\View.Principal.pas</Transaction>
+    <Transaction>2020/11/01 18:28:29.000.267,C:\Users\hp\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Felipe\ConsultaCNPJ\View.Principal.dfm</Transaction>
+    <Transaction>2020/11/01 18:28:54.000.359,C:\Users\hp\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Felipe\ConsultaCNPJ\ConsultaCNPJ.dproj</Transaction>
+    <Transaction>2020/11/01 18:30:25.000.061,=F:\Felipe\ConsultaCNPJ\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 18:30:53.000.396,F:\Felipe\ConsultaCNPJ\Unit1.pas=F:\Felipe\ConsultaCNPJ\Classe.Pessoa.pas</Transaction>
+    <Transaction>2020/11/01 18:35:05.000.174,=F:\Felipe\ConsultaCNPJ\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 18:35:17.000.923,F:\Felipe\ConsultaCNPJ\Unit1.pas=F:\Felipe\ConsultaCNPJ\Classe.Endereco.pas</Transaction>
+    <Transaction>2020/11/01 18:44:43.000.129,=F:\Felipe\ConsultaCNPJ\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 18:45:22.000.131,F:\Felipe\ConsultaCNPJ\Unit1.pas=F:\Felipe\ConsultaCNPJ\Service.ConsultaCNPJ.pas</Transaction>
+    <Transaction>2020/11/01 18:45:54.000.325,F:\Felipe\ConsultaCNPJ\Service.ConsultaCNPJ.pas=</Transaction>
+    <Transaction>2020/11/01 18:46:08.000.907,=F:\Felipe\ConsultaCNPJ\Unit2.pas</Transaction>
+    <Transaction>2020/11/01 18:46:26.000.111,F:\Felipe\ConsultaCNPJ\Unit2.dfm=F:\Felipe\ConsultaCNPJ\Service.ConsultaCNPJ.dfm</Transaction>
+    <Transaction>2020/11/01 18:46:26.000.111,F:\Felipe\ConsultaCNPJ\Unit2.pas=F:\Felipe\ConsultaCNPJ\Service.ConsultaCNPJ.pas</Transaction>
+    <Transaction>2020/11/01 19:34:45.000.206,=F:\Felipe\ConsultaCNPJ\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 19:35:39.000.003,F:\Felipe\ConsultaCNPJ\Unit1.pas=F:\Felipe\ConsultaCNPJ\Callout.ExternalAPI.pas</Transaction>
+    <Transaction>2020/11/01 21:05:12.000.379,=F:\Felipe\ConsultaCNPJ\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 21:05:45.000.833,F:\Felipe\ConsultaCNPJ\Unit1.pas=F:\Felipe\ConsultaCNPJ\Controller.ConsultaCNPJ.pas</Transaction>
+    <Transaction>2020/11/01 21:35:32.000.520,F:\Felipe\ConsultaCNPJ\Service.ConsultaCNPJ.pas=</Transaction>
+    <Transaction>2020/11/01 21:43:32.000.709,F:\Felipe\ConsultaCNPJ\Callout.ExternalAPI.pas=F:\Felipe\ConsultaCNPJ\Callout.API.pas</Transaction>
+    <Transaction>2020/11/01 21:44:18.000.627,F:\Felipe\ConsultaCNPJ\View.Principal.dfm=F:\Felipe\ConsultaCNPJ\View.ConsultaCNPJ.dfm</Transaction>
+    <Transaction>2020/11/01 21:44:18.000.627,F:\Felipe\ConsultaCNPJ\View.Principal.pas=F:\Felipe\ConsultaCNPJ\View.ConsultaCNPJ.pas</Transaction>
+    <Transaction>2020/11/01 22:28:43.836,F:\Felipe\ConsultaCNPJ\Model\Classe.PessoaJuridica.pas=F:\Felipe\ConsultaCNPJ\Model\Classe.Pessoa.pas</Transaction>
+  </Transactions>
+</BorlandProject>
