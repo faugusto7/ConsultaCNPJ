@@ -2,8 +2,6 @@ unit Classe.PessoaJuridica;
 
 interface
 
-uses Classe.Endereco;
-
 type
   TPessoaJuridica = class
   private
